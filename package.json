@@ -1,0 +1,34 @@
+{
+  "name": "youtubebackend",
+  "version": "0.1.0",
+  "description": "MERN stack based Youtube Backend",
+  "keywords": [
+    "javascript",
+    "youtube",
+    "backend",
+    "MERN"
+  ],
+  "homepage": "https://github.com/satyamlal/Youtube-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/satyamlal/Youtube-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyamlal/Youtube-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Satyam Lal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^8.19.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
